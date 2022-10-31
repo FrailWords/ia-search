@@ -32,7 +32,7 @@ princeton - p
 For e.g. 
 
 ```shell
-./ia_search.sh 1640 1700 a
+./ia_search.sh 1640 1641 a
 ```
 
 The output will be a file named `output.csv`.
