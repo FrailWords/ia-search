@@ -3,7 +3,7 @@
 Seach internet archive for a given collection and year range and return metadata in CSV format
 
 ### Pre-requisites 
-* `Poetry` - run - `curl -sSL https://install.python-poetry.org | python3 -`
+* `Poetry` - Install by running the following command: `curl -sSL https://install.python-poetry.org | python3 -`
 
 ### Initialize Poetry
 
