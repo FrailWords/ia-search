@@ -1,6 +1,6 @@
 ## Description
 
-Search [ESTC website](http://estc.bl.uk/) for given estc numbers.
+Seach internet archive for a given collection and year range and return metadata in CSV format
 
 ### Pre-requisites 
 * `Poetry` - run - `curl -sSL https://install.python-poetry.org | python3 -`
