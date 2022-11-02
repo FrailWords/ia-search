@@ -41,7 +41,6 @@ def main(collection: CollectionsEnum, start, end):
             identifier = map_to_value(metadata.get('identifier', ''))
             output.append([url, title, author, publication_date, publisher,
                            digitizing_sponsor, contributor, language, identifier])
-            break
     with open("output.csv", "w+") as output_csv:
         csv_writer = csv.writer(output_csv, delimiter=',')
         csv_writer.writerows(output)
